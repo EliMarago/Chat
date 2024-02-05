@@ -1,0 +1,197 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 213, 213);
+    height: 100vh;
+    cursor: pointer;
+    
+
+}
+.container
+{
+   width: 380px;
+   height: 650px;
+   background-color: rgb(236, 234, 234);
+   border-radius: 30px 30px 30px 30px;
+   border: solid 2px;
+}
+.chat-text
+{
+font-size: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+margin-bottom: 20px;
+margin-top: -23px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+   
+}
+.container span 
+{
+ position: relative;
+ top: 20px;
+
+
+}
+.edit-text
+{
+    position: relative;
+    bottom: 23px;
+    left: 20px;
+    text-decoration: none;
+    color: rgb(64, 59, 59);
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.edit-text:hover
+{
+    color: rgb(255, 255, 255);
+}
+.bx-message-rounded-add
+{
+
+margin-left: 330px;
+position: relative;
+top: 16px;
+font-size: 20px;
+
+
+
+}
+.start-bar
+{
+background: rgb(142,231,112);
+background: linear-gradient(200deg, rgba(142,231,112,0.4822522759103641) 9%, rgba(119,184,106,1) 40%);
+border-radius: 30px 30px 3px 3px;
+}
+.first-name
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+margin-right: 60px;
+ margin-bottom: 3px;
+}
+
+.text_chat_1
+{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 11px;
+margin-right: 20px;
+margin-top: 5px;
+color: rgb(65, 64, 64);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+}
+p{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin: 20px;
+ 
+}
+
+.text
+{
+
+display: flex;
+justify-content: center;
+
+}
+
+img
+{
+    position: relative;
+    border-radius: 50%;
+    bottom: 30px;
+    margin-left: 15px;
+    
+}
+.second-name{
+    position: relative;
+   margin-left: 20px;
+}
+
+.text_chat_2
+{
+    display: flex;
+justify-content: center;
+align-items: center;
+font-size: 11px;
+margin-right: 9px;
+margin-top: 5px;
+color: rgb(65, 64, 64);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.third-name
+{
+    position: relative;
+    margin-left: 20px;
+}
+.text_chat_3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    margin-right: 56px;
+    margin-top: 5px;
+    color: rgb(65, 64, 64);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+.element-bar
+{
+height: 53px;
+background: rgb(142,231,112);
+background: linear-gradient(200deg, rgba(142,231,112,0.4822522759103641) 9%, rgba(119,184,106,1) 40%);
+border-radius: 10px 30px 50px 20px;
+position: relative;
+bottom: 10px;
+
+}
+
+.bi-chat
+{
+position: relative;
+left: 160px;
+bottom: 30px;
+}
+
+.bi-person-circle
+{
+    position: relative;
+    left: 40px;
+    bottom: 30px; 
+}
+.bi-setting
+{
+    position: relative;
+    left: 170px;
+    bottom: 30px; 
+}
+.feather-phone-call
+{
+    position: relative;
+    left: 200px;
+    bottom: 30px; 
+}
+hr
+{
+    border-top: 1px solid rgb(118, 116, 116);
+    position: relative;
+    bottom: 30px;
+}
